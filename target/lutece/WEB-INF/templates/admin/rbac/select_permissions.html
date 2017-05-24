@@ -1,0 +1,82 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="box box-success">
+			<div class="box-header">
+				<h3 class="box-title">#i18n{portal.rbac.select_permissions.titleSelectPermissions}</h3>
+				<div class="box-tools"></div>
+			</div><!-- /.box-header -->
+			<div class="box-body">
+				<form class="form-horizontal" role="form" method="post"  action="jsp/admin/rbac/DoSelectPermissions.jsp" name="add_control">
+					<input type="hidden" name="role_key" value="${role_key}">
+					<input type="hidden" name="resource_type" value="${resource_type}">
+					<input type="hidden" name="select_resources" value="${select_resources}">
+					<#if resource_id_list?has_content>
+						<#list resource_id_list as resource_id>
+							<input type="hidden" name="resource_id" value="${resource_id}">
+						</#list>
+					</#if>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-offset-2 col-sm-10">
+							<div class="radio">
+								<label>
+									<input type="radio" name="select_permissions" id="select_all" value="all" checked="checked" >
+									#i18n{portal.rbac.select_permissions.labelSelectAllPermissions}
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="select_permissions" id="select_choose" value="choose">
+									#i18n{portal.rbac.select_permissions.labelSelectPermissionsFromList}
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-offset-2 col-sm-10">
+							<blockquote>
+							<#list permissions_list as item>
+								<div class="checkbox">
+								<#if item.checked >
+									<label>
+										<input type="checkbox" name="permission_key" value="${item.code}">
+										${item.name}
+									</label>
+								<#else>
+									<label>
+										<input type="checkbox" name="permission_key" value="${item.code}">
+										${item.name}
+									</label>
+								</#if>
+								</div>
+							</#list>
+							</blockquote>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<button class="btn btn-primary btn-flat" type="submit" >
+								<i class="fa fa-check"></i>&nbsp;#i18n{portal.rbac.select_permissions.buttonLabelValidate}
+							</button>
+							<a class="btn btn-default btn-flat" href="jsp/admin/rbac/AddControlToRole.jsp?role_key=${role_key}&amp;resource_type=${resource_type}" >
+								<i class="fa fa-remove"></i>&nbsp;#i18n{portal.rbac.select_permissions.buttonLabelCancel}
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+    </div>
+</div>
+<script>
+jQuery( document ).ready(function( $ ) {
+	$(":checkbox").click( function(){
+		if( $( ":checked" ).length > 1 ){
+			$("#select_choose").prop("checked", true );
+			$( "#select_all" ).prop( "checked", false );
+		} else {
+			$("#select_choose").prop( "checked", false );
+			$("#select_all").prop("checked", true );
+		}
+	});
+});
+</script>

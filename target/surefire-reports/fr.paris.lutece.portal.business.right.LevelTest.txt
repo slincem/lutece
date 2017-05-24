@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.business.right.LevelTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.106 sec - in fr.paris.lutece.portal.business.right.LevelTest

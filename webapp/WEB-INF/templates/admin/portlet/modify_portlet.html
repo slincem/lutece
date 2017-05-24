@@ -1,0 +1,136 @@
+<#if portletType.modifyScriptTemplate != "" ><#include portletType.modifyScriptTemplate /></#if>
+<div class="row">
+	<div class="col-md-12">
+		<form method="post" id="form-portlet" name="form" action="${portletType.doModifyUrl}" target="_top" role="form">
+		<input type="hidden" name="portlet_id" value="${portlet.id}" />
+		<input type="hidden" name="portlet_type_id" value="${portletType.id}" />
+		<fieldset>
+			<legend>
+				&nbsp;#i18n{portal.site.portletType.labelModify} ${portletType.name}
+			</legend>
+			<div class="row">
+				<div id="panel" class="col-md-2">
+					<div class="well">
+						<div class="form-group">
+							<label for="page_id">#i18n{portal.site.modify_portlet.labelPortletPageId}</label>
+							<input type="text" name="page_id" value="${portlet.pageId}" class="form-control">
+						</div>
+						<div class="form-group">
+							<label for="column">#i18n{portal.site.create_portlet.labelColumn}</label>
+							<@comboWithParams name="column" default_value="${portlet.column}" additionalParameters="class=\"form-control\"" items=portlet_columns_combo />
+						</div>
+						<div class="form-group">
+							<label for="order">#i18n{portal.site.create_portlet.labelOrder} </label>
+							<@comboWithParams name="order" default_value="${portlet.order}" additionalParameters="class=\"form-control\"" items=portlet_order_combo />
+						</div>
+						<#if portletType.id != "ALIAS_PORTLET">
+							<div class="form-group">
+								<label for="style">#i18n{portal.site.create_portlet.labelStyle} </label>
+								<@comboSortedWithParams name="style" default_value="${portlet.styleId}" additionalParameters="class=\"form-control\"" items=portlet_style_combo />
+							</div>
+						</#if>
+						<fieldset>
+							<legend id="adv_param">#i18n{portal.site.admin_page.labelAdvancedParameters} <span id="bt-toggle" class="glyphicon glyphicon-plus pull-right"></span></legend>
+								<div id="params">
+									<div class="form-group">
+										<label for="role">#i18n{portal.site.create_portlet.labelRole}<br /></label>
+										<@comboSortedWithParams name="role" default_value="${portlet.role}" additionalParameters="class=\"form-control\"" items=portlet_role_combo />
+									</div>
+									<div class="form-group">
+										<label>#i18n{portal.site.create_portlet.labelAlias}</label>
+										<label class="radio-inline" >
+											<input class="radio" type="radio" name="accept_alias" value="1" <#if portlet.acceptAlias = 1 >checked="checked"</#if>> #i18n{portal.util.labelYes}
+										</label>
+										<label class="radio-inline">
+											<input class="radio" type="radio" name="accept_alias" value="0" <#if portlet.acceptAlias = 0 >checked="checked"</#if>> #i18n{portal.util.labelNo}
+										</label>
+									</div>
+									<div class="form-group">
+										<label>#i18n{portal.site.create_portlet.labelDisplayOnDevice}</label>
+										<div class="checkbox">
+											<label for="display_on_small_device">
+												<input class="checkbox" type="checkbox" name="display_on_small_device" value="1" ${small_checked} >
+												&nbsp;#i18n{portal.site.create_portlet.checkboxSmallDevice}
+											</label> 
+										</div>
+										<div class="checkbox">
+											<label for="display_on_normal_device">
+												<input class="checkbox" type="checkbox" name="display_on_normal_device" value="1" ${normal_checked} >
+												&nbsp;#i18n{portal.site.create_portlet.checkboxNormalDevice}
+											</label>
+										</div>
+										<div class="checkbox">
+											<label for="display_on_large_device">
+												<input class="checkbox" type="checkbox" name="display_on_large_device" value="1" ${large_checked}>
+												&nbsp;#i18n{portal.site.create_portlet.checkboxLargeDevice} &nbsp;
+											</label>
+										</div>
+										<div class="checkbox">
+											<label for="display_on_xlarge_device">
+												<input class="checkbox" type="checkbox" name="display_on_xlarge_device" value="1" ${xlarge_checked}>
+												&nbsp;#i18n{portal.site.create_portlet.checkboxXLargeDevice} &nbsp;
+											</label>
+										</div>
+									</div>
+								</div>
+						</fieldset>
+					</div>
+				</div>
+				<div id="content" class="col-md-10">
+					<div class="form-group">
+						<label for="portlet_name">#i18n{portal.site.create_portlet.labelPortletTitle}</label> 
+						<input type="text" name="portlet_name" value="${portlet.name}" class="form-control" maxlength="70">
+					</div>
+					<div class="form-group">
+						<label for="">&nbsp;</label> 
+						<label class="radio-inline">
+							<input type="radio" name="display_portlet_title" value="0" <#if portlet.displayPortletTitle = 0 >checked="checked"</#if> />&nbsp;#i18n{portal.site.create_portlet.radioButtonDisplayPortletTitleYes}                      
+						</label>
+						<label class="radio-inline">
+							<input type="radio" name="display_portlet_title" value="1" <#if portlet.displayPortletTitle = 1 >checked="checked"</#if> />&nbsp;#i18n{portal.site.create_portlet.radioButtonDisplayPortletTitleNo}
+						</label>
+					</div>
+					<#if portletType.modifySpecificTemplate != "" >
+						<#include portletType.modifySpecificTemplate />
+					</#if>
+					<#if portletType.modifySpecificFormTemplate != "" >
+						<#include portletType.modifySpecificFormTemplate />
+					</#if>
+					 <div class="form-group">
+						<div class="center-block">
+						<button type="submit" class="btn btn-primary btn-sm">
+							<i class="glyphicon glyphicon-ok"></i>
+							<span class="hidden-phone" >#i18n{portal.site.create_portlet.buttonValidate}</span>
+						</button>
+						<a href="site/AdminSite.jsp?page_id=${portlet.pageId}" class="btn btn-default btn-sm" target="_top">            
+							<i class="glyphicon glyphicon-remove-circle"></i>
+							<span class="hidden-phone" >#i18n{portal.site.create_portlet.buttonBack}</span>
+						</a>
+					</div> 
+				</div> 
+			</div> 
+			</fieldset>
+		</form>
+	</div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("legend").first().prepend('<a id="trigger" class="btn btn-xs btn-info" href="#" title="#i18n{portal.site.portlet.labelShowHideProperties}"><i class="glyphicon glyphicon-chevron-left"></i></a>');
+	$("#trigger").click(function(){
+		$("#panel").toggle("fast");
+		$("#content").toggleClass("col-md-10");
+		$("#content").toggleClass("col-md-12");
+		$(this).children().toggleClass("glyphicon-chevron-left");
+		$(this).children().toggleClass("glyphicon-chevron-right");
+		$(this).toggleClass("active");
+		return false;
+	});
+	$("#params").toggle();
+	$("#adv_param").click(function(){
+		$("#params").toggle();
+		$("#bt-toggle").toggleClass("glyphicon-plus");
+		$("#bt-toggle").toggleClass("glyphicon-minus");
+	});
+});
+</script>
+</div>

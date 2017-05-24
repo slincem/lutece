@@ -1,0 +1,65 @@
+<#function isSelected nIdField default_values_list>
+    <#if default_values_list?has_content>
+        <#list default_values_list as default_value>
+            <#if default_value.attributeField?exists && default_value.attributeField.idField = nIdField && default_value.value != "">       
+                <#return true>
+            </#if>
+        </#list>
+    </#if>
+    <#return false>
+</#function>
+<#function isEmptyString default_values_list>
+    <#if default_values_list?has_content>
+        <#list default_values_list as default_value>
+            <#if default_value.value == "">         
+                <#return true>
+            </#if>
+        </#list>
+    </#if>
+    <#return false>
+</#function>
+<#function isMultiple listAttributeFields>
+    <#list listAttributeFields as attributeField>
+        <#if attributeField.multiple = true>
+            <#return true>
+        </#if>
+        <#break>
+    </#list>
+    <#return false>
+</#function>
+<div class="form-group">
+    <label class="col-xs-12 col-sm-12 col-md-12" for="attribute_${attribute.idAttribute}">
+        ${attribute.title?html}
+    <#if attribute.mandatory>
+        *
+    </#if>
+        : 
+    </label>
+    <div class="col-xs-12 col-sm-12 col-md-12">
+        <select class="form-control input-sm" name="attribute_${attribute.idAttribute}" id="attribute_${attribute.idAttribute}"
+            <#if isMultiple( attribute.listAttributeFields ) >
+                    multiple="multiple" size="10"
+            </#if>
+        >
+            <#if !attribute.mandatory>
+                <option value="">
+                    #i18n{portal.users.attribute.labelNone}
+                </option>
+            </#if>
+            <#list attribute.listAttributeFields as attributeField>
+                <#if attributeField.title?exists && attributeField.value != "">
+                    <option value="${attributeField.idField}" title="${attributeField.title?html}"
+                        <#if default_values_list?has_content && isSelected(attributeField.idField default_values_list) >
+                            selected="selected"  
+                        </#if>
+                        >
+                            ${attributeField.title?html}
+                    </option>
+                </#if>
+            </#list>
+        </select>
+        <#if attribute.helpMessage?exists&&attribute.helpMessage!=''>
+        <span class="help-block">${attribute.helpMessage}</span>
+        </#if>
+    </div>
+</div>

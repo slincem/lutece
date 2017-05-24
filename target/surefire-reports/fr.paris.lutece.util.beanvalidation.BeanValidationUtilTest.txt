@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.util.beanvalidation.BeanValidationUtilTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.434 sec <<< FAILURE! - in fr.paris.lutece.util.beanvalidation.BeanValidationUtilTest
+testValidate_GenericType_Locale(fr.paris.lutece.util.beanvalidation.BeanValidationUtilTest)  Time elapsed: 0.375 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at fr.paris.lutece.portal.service.util.AppPropertiesService.getProperty(AppPropertiesService.java:116)
+	at fr.paris.lutece.portal.service.util.AppPathService.getWebappInstance(AppPathService.java:626)
+	at fr.paris.lutece.portal.service.util.AppPathService.isDefaultWebappInstance(AppPathService.java:643)
+	at fr.paris.lutece.portal.service.datastore.DatastoreService.getInstanceKey(DatastoreService.java:429)
+	at fr.paris.lutece.portal.service.datastore.DatastoreService.getInstanceDataValue(DatastoreService.java:133)
+	at fr.paris.lutece.portal.web.l10n.LocaleService.getDefault(LocaleService.java:105)
+	at fr.paris.lutece.util.beanvalidation.LuteceMessageInterpolator.<init>(LuteceMessageInterpolator.java:62)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:525)
+	at java.lang.Class.newInstance0(Class.java:374)
+	at java.lang.Class.newInstance(Class.java:327)
+	at org.hibernate.validator.xml.ValidationXmlParser.setMessageInterpolatorFromXml(ValidationXmlParser.java:132)
+	at org.hibernate.validator.xml.ValidationXmlParser.parseValidationXml(ValidationXmlParser.java:64)
+	at org.hibernate.validator.engine.ConfigurationImpl.parseValidationXml(ConfigurationImpl.java:261)
+	at org.hibernate.validator.engine.ConfigurationImpl.buildValidatorFactory(ConfigurationImpl.java:148)
+	at javax.validation.Validation.buildDefaultValidatorFactory(Validation.java:111)
+	at fr.paris.lutece.util.beanvalidation.BeanValidationUtil.<clinit>(BeanValidationUtil.java:62)
+	at fr.paris.lutece.util.beanvalidation.BeanValidationUtilTest.testValidate_GenericType_Locale(BeanValidationUtilTest.java:83)
+

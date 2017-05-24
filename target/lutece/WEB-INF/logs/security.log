@@ -1,0 +1,1728 @@
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:11:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:14:12 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:15:32 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:20:39 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:28:18 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:30:29 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 09:32:23 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 10:25:17 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : ">"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "<"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : "#"
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : XSS CHARACTERS DETECTED
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+
+24/05/17 10:33:49 WARN  [Lutece-MainThread] security.http - SECURITY WARNING : INVALID REQUEST PARAMETERS
+ Request Dump : 
+** Request variables  **
+AUTH_TYPE : ""
+REQUEST_METHOD : ""
+PATH_INFO : ""
+PATH_TRANSLATED : ""
+QUERY_STRING : ""
+REQUEST_URI : ""
+SCRIPT_NAME : ""
+LOCAL_ADDR : ""
+SERVER_PROTOCOL : ""
+REMOTE_ADDR : ""
+REMOTE_HOST : ""
+HTTPS : ""
+SERVER_NAME : ""
+SERVER_PORT : "0"
+** Request parameters  **
+param1 : "AZ"
+param2 : "09"
+param3 : "az"
+param4 : """
+** Request headers  **
+

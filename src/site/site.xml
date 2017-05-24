@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Lutece">
+    
+    <custom>
+        <fluidoSkin>
+            <gitHub>
+                <projectId>${github.project}</projectId>
+            </gitHub>
+       </fluidoSkin>
+    </custom>
+
+    <version />
+    
+    <body>
+        <links>
+            <item name="FR" href="/fr/index.html" />
+        </links>
+
+        <menu name="Lutece : core component">
+            <item name="Introduction" href="index.html" />
+        </menu>
+
+        <menu name="Downloads" inherit="bottom">
+            <item name="Released versions" href="../stable_builds/lutece-core/" />
+            <item name="Nightly builds" href="../nightly_builds/lutece-core/" />
+        </menu>
+
+        <menu ref="reports" inherit="bottom" />
+    </body>
+
+</project>

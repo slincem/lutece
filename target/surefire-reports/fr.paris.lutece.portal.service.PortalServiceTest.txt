@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.service.PortalServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.007 sec <<< FAILURE! - in fr.paris.lutece.portal.service.PortalServiceTest
+testGetDefaultPage(fr.paris.lutece.portal.service.PortalServiceTest)  Time elapsed: 0.007 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class fr.paris.lutece.plugins.document.business.portlet.DocumentPortletHome
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:188)
+	at fr.paris.lutece.portal.business.portlet.PortletHome.findByPrimaryKey(PortletHome.java:77)
+	at fr.paris.lutece.portal.business.page.PageDAO.loadPortlets(PageDAO.java:445)
+	at fr.paris.lutece.portal.business.page.PageDAO.load(PageDAO.java:232)
+	at fr.paris.lutece.portal.business.page.PageHome.findByPrimaryKey(PageHome.java:120)
+	at fr.paris.lutece.portal.service.page.PageService.getPageContent(PageService.java:514)
+	at fr.paris.lutece.portal.service.page.PageService.buildPageContent(PageService.java:476)
+	at fr.paris.lutece.portal.service.page.PageService.getPage(PageService.java:314)
+	at fr.paris.lutece.portal.service.portal.PortalService.getDefaultPage(PortalService.java:235)
+	at fr.paris.lutece.portal.service.PortalServiceTest.testGetDefaultPage(PortalServiceTest.java:67)
+

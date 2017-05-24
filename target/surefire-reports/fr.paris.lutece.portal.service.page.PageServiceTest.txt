@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.service.page.PageServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.156 sec <<< FAILURE! - in fr.paris.lutece.portal.service.page.PageServiceTest
+testBaseUrl(fr.paris.lutece.portal.service.page.PageServiceTest)  Time elapsed: 0.156 sec  <<< ERROR!
+java.lang.ExceptionInInitializerError: null
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:529)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1095)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:277)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1093)
+	at fr.paris.lutece.portal.service.spring.SpringContextService.getBean(SpringContextService.java:99)
+	at fr.paris.lutece.plugins.document.business.portlet.DocumentPortletHome.<clinit>(DocumentPortletHome.java:51)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:188)
+	at fr.paris.lutece.portal.business.portlet.PortletHome.findByPrimaryKey(PortletHome.java:77)
+	at fr.paris.lutece.portal.business.page.PageDAO.loadPortlets(PageDAO.java:445)
+	at fr.paris.lutece.portal.business.page.PageDAO.load(PageDAO.java:232)
+	at fr.paris.lutece.portal.business.page.PageHome.findByPrimaryKey(PageHome.java:120)
+	at fr.paris.lutece.portal.service.page.PageService.getPageContent(PageService.java:514)
+	at fr.paris.lutece.portal.service.page.PageService.buildPageContent(PageService.java:476)
+	at fr.paris.lutece.portal.service.page.PageService.getPage(PageService.java:314)
+	at fr.paris.lutece.portal.service.page.PageService.getPage(PageService.java:226)
+	at fr.paris.lutece.portal.service.page.PageServiceTest.testBaseUrl(PageServiceTest.java:125)
+

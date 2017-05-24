@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.web.search.SearchIndexationJspBeanTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.228 sec <<< FAILURE! - in fr.paris.lutece.portal.web.search.SearchIndexationJspBeanTest
+testDoIndexing(fr.paris.lutece.portal.web.search.SearchIndexationJspBeanTest)  Time elapsed: 0.221 sec  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class fr.paris.lutece.plugins.document.business.portlet.DocumentPortletHome
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:188)
+	at fr.paris.lutece.portal.business.portlet.PortletHome.findByPrimaryKey(PortletHome.java:77)
+	at fr.paris.lutece.portal.business.page.PageDAO.loadPortlets(PageDAO.java:445)
+	at fr.paris.lutece.portal.business.page.PageDAO.load(PageDAO.java:232)
+	at fr.paris.lutece.portal.business.page.PageHome.findByPrimaryKey(PageHome.java:120)
+	at fr.paris.lutece.portal.service.page.PageService.getPageContent(PageService.java:514)
+	at fr.paris.lutece.portal.service.search.PageIndexer.getDocument(PageIndexer.java:222)
+	at fr.paris.lutece.portal.service.search.PageIndexer.indexDocuments(PageIndexer.java:104)
+	at fr.paris.lutece.portal.service.search.IndexationService.processFullIndexing(IndexationService.java:274)
+	at fr.paris.lutece.portal.service.search.IndexationService.processIndexing(IndexationService.java:207)
+	at fr.paris.lutece.portal.web.search.SearchIndexationJspBean.doIndexing(SearchIndexationJspBean.java:99)
+	at fr.paris.lutece.portal.web.search.SearchIndexationJspBeanTest.testDoIndexing(SearchIndexationJspBeanTest.java:75)
+

@@ -1,0 +1,28 @@
+<div class="form-box margin" id="login-box">
+    <div class="header bg-blue">
+		<h3>#i18n{portal.admin.admin_form_contact.boxTitle}</h3>
+	</div>
+	<form method="post" name="form_contact" id="form_contact" action="jsp/admin/DoAdminFormContact.jsp" class="form-horizontal" role="form">
+		<div class="body bg-gray">
+			<div class="form-group">
+				<p class="form-control-static margin">#i18n{portal.admin.message.admin_form_contact.sendingError}</p>
+				<label class="col-xs-12 col-sm-12 col-md-12" for="message_contact">#i18n{portal.admin.admin_form_contact.messageContactLabel} * </label>
+				<div class="col-xs-12 col-sm-12 col-md-12">
+					<textarea rows="5" class="form-control" name="message_contact" id="message_contact" required="required"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="footer">                                                               
+			<button class="btn btn-primary btn-block" type="submit">
+				<span class="fa fa-envelope"></span>&nbsp;#i18n{portal.admin.admin_form_contact.buttonSubmit} 
+			</button>
+			<div class="text-center">
+				<p>
+					<a class="btn btn-default btn-flat" href="http://fr.lutece.paris.fr" target="_blank" title="#i18n{portal.site.portal_footer.labelPortal}">
+						<img src="images/poweredby.jpg" class="thumbnails" alt="logo lutece" title="Lutece">
+					</a>
+				</p>
+			</div>
+		</div>
+    </form>
+</div>	

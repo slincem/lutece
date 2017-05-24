@@ -1,0 +1,42 @@
+<script type="text/javascript" src="${webapp_url}js/editors/tinymce/tinymce.min.js"></script>
+<#macro initEditor editorWidth=450 cssFiles="">
+<#assign editorLocale="" />
+<#-- We only have the language pack for French (France) installed in webapp/js/editors/tinymce/langs -->
+<#-- Some lutece plugins pass locale.getLanguage() (="fr"), some pass the locale object (toString="fr_FR", or more complicated...) -->
+<#-- Force it here because if it is a wrong value, tinyMCE does not load -->
+<#if locale?? && (2 <= locale?string?length) && (locale?string?substring(0,2) == "fr")>
+	<#assign editorLocale="fr_FR" />
+</#if>
+<#if cssFiles=="">
+	<#assign cssFiles="editor.css, page_template_styles.css" />
+</#if>
+<script type="text/javascript">
+	tinyMCE.init({
+		// General options ${editorLocale}
+		selector : "textarea.richtext",
+		theme : "modern",
+		document_base_url : "${webapp_url}",
+		width : "${editorWidth}",
+		menubar : false,
+		<#if editorLocale != "">language : '${editorLocale}',</#if>
+		plugins: [
+       "lutece advlist autolink link image lists charmap print preview hr anchor pagebreak ",
+       "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+       "save table contextmenu directionality template paste textcolor youtube"
+		],
+		paste_as_text: true,
+		// Extended elements
+		extended_valid_elements : "iframe[style|src|width|height|name|align|frameborder|scrolling],script[src|type]",
+		paste_word_valid_elements: "b,strong,i,em,h1,h2,h3,p,br",
+		content_css: "${cssFiles}",
+		style_formats: [
+			{title: "H2", format: "h2"},
+			{title: "H3", format: "h3"},
+			{title: "Paragraphe", format: "p"},
+			{title: 'Listes puces', selector: 'ul', classes: 'liste-puces'}
+		],
+		toolbar: "undo redo | paste | styleselect | bold italic  | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | lutece link media | print preview fullscreen code",
+		contextmenu: "lutece link image | paste copy cut | inserttable | cell row column deletetable",
+	});
+</script>
+</#macro>

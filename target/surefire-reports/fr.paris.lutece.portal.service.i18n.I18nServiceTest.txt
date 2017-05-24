@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.service.i18n.I18nServiceTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec <<< FAILURE! - in fr.paris.lutece.portal.service.i18n.I18nServiceTest
+testGetLocalizedDateTime(fr.paris.lutece.portal.service.i18n.I18nServiceTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[01/01/70 01]:00> but was:<[31/12/69 19]:00>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at fr.paris.lutece.portal.service.i18n.I18nServiceTest.testGetLocalizedDateTime(I18nServiceTest.java:125)
+
+testGetLocalizedDate(fr.paris.lutece.portal.service.i18n.I18nServiceTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<[01/01/70]> but was:<[31/12/69]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at junit.framework.TestCase.assertEquals(TestCase.java:269)
+	at fr.paris.lutece.portal.service.i18n.I18nServiceTest.testGetLocalizedDate(I18nServiceTest.java:107)
+

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Lutece plugins DTD. Copyright (c) 2011 Mairie de Paris -->
+<!ELEMENT plug-in ( name, class, version, description, documentation, installation, changes, user-guide, provider, provider-url, icon-url?, copyright?, db-pool-required, css-stylesheets?, javascript-files?, page-include-service*, applications*, link-service*, html-service*, content-service*, admin-features*, portlets*, params*, dashboard-components?, listeners?, servlets*, search-indexers*, insert-services*, filters*,daemons*,rbac-resource-types*,page-include-services*,admindashboard-components*, freemarker-macro-files? ) >
+
+
+<!-- Plugin Informations -->
+<!ELEMENT name ( #PCDATA ) >
+<!ELEMENT class ( #PCDATA ) >
+<!ELEMENT description ( #PCDATA ) >
+<!ELEMENT documentation ( #PCDATA ) >
+<!ELEMENT installation ( #PCDATA ) >
+<!ELEMENT changes ( #PCDATA ) >
+<!ELEMENT user-guide ( #PCDATA ) >
+<!ELEMENT version ( #PCDATA ) >
+<!ELEMENT copyright ( #PCDATA ) >
+<!ELEMENT icon-url ( #PCDATA ) >
+<!ELEMENT provider ( #PCDATA ) >
+<!ELEMENT provider-url ( #PCDATA ) >
+<!ELEMENT db-pool-required ( #PCDATA ) >
+
+<!-- Links Includes : specific stylesheet -->
+<!ELEMENT css-stylesheets ( css-stylesheets-scope?, css-stylesheet* )>
+<!ELEMENT css-stylesheet ( #PCDATA ) >
+<!ELEMENT css-stylesheets-scope ( #PCDATA ) >
+
+
+   
+<!-- Links Include : specific plugin Javascript -->
+<!ELEMENT javascript-files ( javascript-file*, javascript-files-scope? )>
+<!ELEMENT javascript-file ( #PCDATA ) >
+<!ELEMENT javascript-files-scope ( #PCDATA ) >
+
+<!-- Page Include Service -->
+<!ELEMENT page-include-service ( page-include-service-name, page-include-service-class )>
+<!ELEMENT page-include-service-name ( #PCDATA ) >
+<!ELEMENT page-include-service-class ( #PCDATA ) >
+   
+<!-- Xpage configuration -->
+<!ELEMENT application ( application-id, application-class,application-roles ) >
+<!ELEMENT application-id ( #PCDATA ) >
+<!ELEMENT application-class ( #PCDATA ) >
+<!ELEMENT application-roles ( #PCDATA ) >
+
+<!-- Links Service -->
+<!ELEMENT link-service ( link-service-id, link-service-class, link-service-bean-class, link-service-label )>
+<!ELEMENT link-service-id ( #PCDATA ) >
+<!ELEMENT link-service-class ( #PCDATA ) >
+<!ELEMENT link-service-bean-class ( #PCDATA ) >
+<!ELEMENT link-service-label ( #PCDATA ) >
+ 
+   <!-- HTML Service -->
+<!ELEMENT html-service ( html-service-id, html-service-class, html-service-bean-class, html-service-label )>
+<!ELEMENT html-service-id ( #PCDATA ) >
+<!ELEMENT html-service-class ( #PCDATA ) >
+<!ELEMENT html-service-bean-class ( #PCDATA ) >
+<!ELEMENT html-service-label ( #PCDATA ) >
+    
+<!-- Content Service -->
+<!ELEMENT content-service ( content-service-class ) >
+<!ELEMENT content-service-class ( #PCDATA ) >
+     
+<!-- Administration interface parameters -->
+<!ELEMENT admin-features ( admin-feature* ) >
+<!ELEMENT admin-feature ( feature-id, feature-title, feature-description, feature-level, feature-url, feature-icon-url ) >
+<!ELEMENT feature-id ( #PCDATA ) >
+<!ELEMENT feature-title ( #PCDATA ) >
+<!ELEMENT feature-level ( #PCDATA ) >
+<!ELEMENT feature-url ( #PCDATA ) >
+<!ELEMENT feature-description ( #PCDATA ) >
+<!ELEMENT feature-group ( #PCDATA ) >
+<!ELEMENT feature-icon-url ( #PCDATA ) >
+
+<!-- Portlet parameters -->
+<!ELEMENT portlets ( portlet* ) >
+<!ELEMENT portlet ( portlet-class, portlet-type-name, portlet-creation-url, portlet-update-url ) >
+<!ELEMENT portlet-class ( #PCDATA ) >
+<!ELEMENT portlet-type-name ( #PCDATA ) >
+<!ELEMENT portlet-creation-url ( #PCDATA ) >
+<!ELEMENT portlet-update-url ( #PCDATA ) >
+
+<!-- Parameters -->
+<!ELEMENT params ( param* ) >
+<!ELEMENT param ( param-name, param-value, param-description ) >
+<!ELEMENT param-name ( #PCDATA ) >
+<!ELEMENT param-value ( #PCDATA ) >
+<!ELEMENT param-description ( #PCDATA ) >
+
+<!-- dashboard-components -->
+<!ELEMENT dashboard-components ( dashboard-component* ) >
+<!ELEMENT dashboard-component ( dashboard-component-name, dashboard-component-class, dashboard-feature-right, dashboard-zone, dashboard-zone-order ) >
+<!ELEMENT dashboard-component-name ( #PCDATA ) >
+<!ELEMENT dashboard-component-class ( #PCDATA ) >
+<!ELEMENT dashboard-feature-right ( #PCDATA ) >
+<!ELEMENT dashboard-zone ( #PCDATA ) >
+<!ELEMENT dashboard-zone-order ( #PCDATA ) >
+
+<!-- Session Listeners-->
+<!ELEMENT listeners ( listener* )>
+<!ELEMENT listener ( listener-class ) >
+<!ELEMENT listener-class ( #PCDATA ) >
+
+<!-- servlets -->
+<!ELEMENT servlets ( servlet* )>
+<!ELEMENT servlet ( servlet-name?,servlet-class,url-pattern,init-param*) >
+<!ELEMENT servlet-name ( #PCDATA ) >
+<!ELEMENT servlet-class ( #PCDATA ) >
+<!ELEMENT url-pattern ( #PCDATA ) >
+<!ELEMENT init-param (param-name, param-value) >
+
+<!-- Search indexer -->
+<!ELEMENT search-indexers ( search-indexer* )>
+<!ELEMENT search-indexer ( search-indexer-class* )>
+<!ELEMENT search-indexer-class ( #PCDATA ) >
+
+<!-- insert service -->
+<!ELEMENT insert-services ( insert-service* )>
+<!ELEMENT insert-service ( insert-service-id, insert-service-name,insert-service-label,insert-service-bean-class)>
+<!ELEMENT insert-service-id ( #PCDATA ) >
+<!ELEMENT insert-service-name ( #PCDATA ) >
+<!ELEMENT insert-service-label ( #PCDATA ) >
+<!ELEMENT insert-service-bean-class ( #PCDATA ) >
+
+<!-- Applications -->
+<!ELEMENT applications ( application* )>
+
+<!-- Filters -->
+<!ELEMENT filters ( filter* )>
+<!ELEMENT filter ( filter-name?,filter-class,url-pattern, filter-order*, init-param*)>
+<!ELEMENT filter-name ( #PCDATA ) >
+<!ELEMENT filter-class ( #PCDATA ) >
+<!ELEMENT url-pattern ( #PCDATA ) >
+<!ELEMENT filter-order ( #PCDATA ) >
+
+<!--daemons -->
+<!ELEMENT daemons ( daemon* )>
+<!ELEMENT daemon ( daemon-id,daemon-name,daemon-description,daemon-class)>
+<!ELEMENT daemon-id ( #PCDATA ) >
+<!ELEMENT daemon-name ( #PCDATA ) >
+<!ELEMENT daemon-description ( #PCDATA ) >
+<!ELEMENT daemon-class ( #PCDATA ) >
+
+<!-- RBAC -->
+<!ELEMENT rbac-resource-types ( rbac-resource-type* )>
+<!ELEMENT rbac-resource-type ( rbac-resource-type-class)>
+<!ELEMENT rbac-resource-type-class ( #PCDATA ) >
+
+<!-- Page includes -->
+<!ELEMENT page-include-services ( page-include-service* )>
+<!ELEMENT page-include-service ( page-include-service-id,page-include-service-class)>
+<!ELEMENT page-include-service-id ( #PCDATA ) >
+<!ELEMENT page-include-service-class ( #PCDATA ) >
+
+<!-- admin dashboards -->
+<!ELEMENT admindashboard-components ( admindashboard-component* )>
+<!ELEMENT admindashboard-component (dashboard-component-name, dashboard-component-class) >
+
+<!-- macros freemarker -->
+<!ELEMENT freemarker-macro-files ( freemarker-macro-file* )>
+<!ELEMENT freemarker-macro-file ( #PCDATA ) > 

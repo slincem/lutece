@@ -1,0 +1,12 @@
+<script type="text/javascript">
+		// TinyMCE insert
+		var t1 = '${input}';
+ 		if ( t1 !='undefined' ){
+			var elementInput = opener.document.getElementById("${input}");
+			elementInput.value = '${insert}';
+			window.close();
+		} else {
+			parent.tinymce.activeEditor.insertContent('${insert}');
+			parent.tinymce.activeEditor.windowManager.close();	
+		}
+</script>

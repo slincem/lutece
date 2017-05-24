@@ -1,0 +1,39 @@
+<div class="row">
+	<div class="col-xs-12 col-sm-12 col-md-12">
+		<div class="box box-success">
+			<div class="box-header">
+				<h3 class="box-title">#i18n{portal.mailinglist.add_users.title}</h3>
+				<div class="box-tools"></div>
+			</div>
+			<div class="box-body">
+				<form class="form-horizontal" role="form" method="post"  action="jsp/admin/mailinglist/DoAddUsers.jsp">
+					<input type="hidden" name="id_mailinglist" value="${mailinglist.id}">
+					<div class="form-group">
+						<label class="control-label col-xs-12 col-sm-2" for="workgroup" >#i18n{portal.mailinglist.add_users.labelWorkgroup}* : </label>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<@comboSortedWithParams name="workgroup" default_value="all" additionalParameters=" class=\"form-control\" " items=workgroups_list />
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-xs-12 col-sm-2" for="role" >#i18n{portal.mailinglist.add_users.labelRole}* : </label>
+						<div class="col-xs-12 col-sm-6 col-md-6">
+							<@comboSortedWithParams name="role" default_value="none" additionalParameters=" class=\"form-control\" " items=roles_list />
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-xs-12 col-sm-offset-2 col-sm-9">
+							<button class="btn btn-primary btn-flat" type="submit" >
+								<i class="fa fa-check"></i>
+								<span class="hidden-xs" >#i18n{portal.mailinglist.add_users.buttonAdd}</span>
+							</button>
+							<a class="btn btn-default btn-flat" href="jsp/admin/mailinglist/ManageMailingLists.jsp" >
+								<i class="fa fa-remove"></i>
+								<span class="hidden-xs">#i18n{portal.util.labelCancel}</span>
+							</a>
+						</div>
+					</div>
+				</form>
+            </div>
+		</div>
+    </div>
+</div>

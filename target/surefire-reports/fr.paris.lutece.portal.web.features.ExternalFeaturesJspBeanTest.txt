@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: fr.paris.lutece.portal.web.features.ExternalFeaturesJspBeanTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec - in fr.paris.lutece.portal.web.features.ExternalFeaturesJspBeanTest
